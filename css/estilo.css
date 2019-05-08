@@ -1,3 +1,17 @@
+/* selector de etiqueta */
 header{
     background:pink;
 }
+
+/* selector descendente  */
+/* body header div nav ol li a {} */
+
+/* selector de clase*/
+/* .link {
+    background-color: blueviolet;
+} */
+
+
+/* selector  de  id*/
+/* #id1{} */
+

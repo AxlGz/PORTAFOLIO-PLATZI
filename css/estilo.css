@@ -1,13 +1,66 @@
 /* selector de etiqueta */
+/* Colores a usar:
+gris obscuro: #1d252c 
+gris claro: #626262
+background gris: #1b2127*/
+.header{
+    background-color:#1b2127;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    
+   
+}
 
 body{
     font-family: 'Source Sans Pro', Helvetica, sans-serif
+}
+
+.hero{
+    height: 300px;
+    background-image: url(../images/hero.jpg);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: #1d252c;
+    color: white;
+}
+
+
+
+
+.projectDetails{
+    width: 500px;
+    
+}
+
+.projectImageContainer{
+    width: 500px;
+
 }
 
 h1,
 h2,h3,h4,h5,h6{
     font-family: 'Fjalla One', sans-serif;
 }
+
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 150%;
+    font-size: 40px;
+    font-weight: 100;
+    /* font-style: italic; */
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+h1 strong{
+    color: #0206ff
+    
+}
+
 /* selector descendente  */
 /* body header div nav ol li a {} */
 
